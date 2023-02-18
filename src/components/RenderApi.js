@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
 import CardData from "./CardData";
-
 // import { uuid } from 'uuidv4';
 // import { v4 as uuidv4 } from 'uuid';
 
 const RenderApi = () => {
+  
   const [user, setUser] = useState([]);
   const [searchText, setSearchText] = useState("");
   const [page, setPage] = useState(1);
